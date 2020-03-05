@@ -1,0 +1,318 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.leftheaderblock{
+    width:55%;
+    float: left;
+}
+.rightheaderblock{
+    background: url('../images/Dinner3-new_sacgrd.jpeg');
+    width: 45%;
+    float: left;
+    height: 600px;
+    background-size: cover;
+    background-attachment: local;
+}
+.logo{
+    width: 30%;
+    float: left;
+    height: 50px;
+}
+.menu{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 54px;
+}
+.menu ul li{
+    display: inline-block;
+}
+#menuandlogo{
+    padding: 60px;
+}
+.logo svg{
+    fill: #fc8019;
+    width: 200px;
+}
+.menu ul li a{
+    color: #000;
+    padding: 17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+ color: #fc8019;
+}
+.signup {
+    background: #111;
+    padding: 11px 30px !important;
+    color: white !important;
+}
+#mainblock , .footerlist{
+    padding: 20px 60px;
+}
+.headertitle h1{
+    font-weight: 600 ;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.contentblockpara p{
+    font-size: 23px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.form-control{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.form{
+    position: relative;
+}
+
+.btn
+{
+   /* position: absolute;*/ 
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 59px;
+    right: 0px;
+    top: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 120px;
+    /*right: 0;
+    top:0;*/ 
+}
+
+.locatme
+{
+   /* position: absolute;*/
+    right: 130px;
+    top:10px;
+    padding: 10px 20px;
+    
+}
+.locatme:hover
+{
+    background: #eee;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.footerlist ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.footerlist ul li{
+    display: inline;
+
+}
+
+.footerlist ui li a{
+    text-decoration: none;
+}
+.footerlist h3
+{
+    color: #999;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.footerlist ul li a:nth-child(ood)
+{
+
+    text-decoration: none;
+    color: rgb(97, 223, 97);
+}
+.footerlist ul li a:nth-child(even)
+{
+
+    text-decoration: none;
+    color: rgb(202, 190, 19);
+}
+      
+#restaurant
+{
+    clear: both;
+
+}
+    .restaurant_left
+    {
+        width: 45%;
+        float: left;
+        
+    }
+
+    .restaurant_right
+    {
+        width: 55%;
+        float: left;
+    }
+
+    .restaurant_left section
+    {
+        padding: 30px 47px;
+        
+    }
+
+    .restaurant_left section h1{
+        font-size: 40px;
+        widows: 59%;
+        font-weight: 600px;
+        margin: 20px 0px;
+    }
+
+    .restaurant_left section p{
+        font-size: 18px;
+        color: #999;
+        padding: 0px 0px 40px 0px;
+        margin: 0;
+    }
+
+    .restaurant_left section figure,
+    .restaurant_right figure{
+        margin: 0px;
+        display: inline-block;
+    }
+    .restaurant_left img{
+        width: 180px;
+    }
+
+    .restaurant_right section figure
+    {
+        display: inline-block;
+        margin: 0px;
+        
+    }
+.restaurant_right img{
+    width: 400px;
+
+    
+}
+
+.restaurant_right figure{
+    float: left;
+    width: 46%;
+}
+
+.restaurant_right figure:nth-child(2){
+
+    padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .div1
+  {
+      float: left;
+      width: 33.33%;
+      padding: 0px;
+      height: 300px; /* Should be removed. Only for demonstration */
+      background: #282c3f;
+      text-align: center;
+      color: cornsilk;
+      
+    
+  }
